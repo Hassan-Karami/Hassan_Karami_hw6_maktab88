@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.body-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    width: 800px;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.row-div{
+    width: 100%;
+    height: 30%;
+    background-color: #BAFFc9;
+    display: flex;
+    position: relative;
+    
+}
+.bottom-div{
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.yellow{
+    width:31% ;
+    background-color:#FFFFBA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding-bottom: 49px;
+
+
+}
+.small{
+    background-color: white;
+    width:150px;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 10px;
+}
+.middle{
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.orange{
+    width: 100%;
+    height: 45%;
+    background-color:#FFDFBA;
+    position: relative;
+
+}
+.blue{
+    width: 100%;
+    height: 45%;
+    background-color: #BAE1FF;
+    position: relative;
+
+}
+.red{
+    width: 31%;
+    background-color: #FFB3BA;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    padding-bottom: 49px;
+}
+p{
+    position: absolute;
+    top: 40px;
+    left: 30px;
+}
+
+
